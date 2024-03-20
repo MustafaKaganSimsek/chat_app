@@ -22,7 +22,7 @@ export default function Home() {
   const [roomId, setRoomId] = useState("");
 
   var socket: any;
-  socket = io("http://localhost:3001");
+  socket = io("http://185.8.33.197:3001");
   
   useEffect(() => {
     chooseUser()
